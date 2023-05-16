@@ -22,22 +22,18 @@ Welcome to the [Chess.com](https://chess.com) front end programming challenge!
 
 Please contact Nick Kampa (nkampa@chess.com) with any questions or feedback regarding this challenge.
 
-## Project Setup
+# Project Setup
+
+### Install project dependencies:
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Compile and Hot-Reload for Development - aka run this project locally:
 
 ```sh
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
 ```
 
 ### Run Unit Tests with [Vitest](https://vitest.dev/)
