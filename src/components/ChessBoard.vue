@@ -19,20 +19,26 @@ import { useSelectedSquareStore } from "@/stores/selectedSquare";
 
 const store = useSelectedSquareStore();
 
+// Our chessboard
 const files = ["a", "b", "c", "d", "e", "f", "g", "h"];
 const ranks = ["1", "2", "3", "4", "5", "6", "7", "8"].reverse();
 
 const selectSquare = (file: string, rank: string): void => {
-  // When a user clicks on the square, this calls the selectSquare action in the Pinia store to update the selected square state.
+  // When a user clicks on the square, this calls the selectSquare action in the Pinia store to update the selected square state
   store.selectSquare(file, rank);
 };
 
 const getSquareClass = (file: string, rank: string): string => {
-  // Determine if the square is a light square based on its position on the board.
-  const isLightSquare = (files.indexOf(file) + ranks.indexOf(rank)) % 2 === 0;
+  // Determine if the square is a light square based on its position on the board
+  const isDarkSquare = (files.indexOf(file) + 1 + ranks.indexOf(rank)) % 2 === 0;
 
-  // Return the appropriate class based on whether it's a light or dark square.
-  return isLightSquare ? "square dark" : "square light";
+  // Check if the square is the currently selected square from the store
+  const isSelectedSquare = file === store.selectedSquare.file && rank === store.selectedSquare.rank;
+
+  // Generate the appropriate CSS class for the square
+  return isDarkSquare
+    ? "square dark" + (isSelectedSquare ? " highlighted" : "")
+    : "square light" + (isSelectedSquare ? " highlighted" : "");
 };
 </script>
 
@@ -48,14 +54,19 @@ const getSquareClass = (file: string, rank: string): string => {
   .square {
     width: 70px;
     height: 70px;
+    cursor: pointer;
   }
 
-  .square.dark {
+  .dark {
     background-color: $mushroom;
   }
 
-  .square.light {
+  .light {
     background-color: $almond;
+  }
+
+  .highlighted {
+    background-color: $yellow;
   }
 }
 </style>
