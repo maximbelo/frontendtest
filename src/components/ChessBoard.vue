@@ -46,8 +46,6 @@ const getSquareClass = (file: string, rank: string): string => {
 <style lang="scss" scoped>
 @import "@/assets/abstracts/vars";
 .chessboard {
-  width: 100%;
-
   .rank {
     display: flex;
   }
