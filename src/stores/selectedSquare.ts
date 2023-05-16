@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import type { SelectedSquare, HistoryItem } from "@/types";
+import type { SelectedSquare, HistoryItem } from "@/interfaces";
 
 export const useSelectedSquareStore = defineStore("selectedSquare", {
   state: () => ({

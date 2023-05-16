@@ -36,9 +36,10 @@ const getSquareClass = (file: string, rank: string): string => {
   const isSelectedSquare = file === store.selectedSquare.file && rank === store.selectedSquare.rank;
 
   // Generate the appropriate CSS class for the square
-  return isDarkSquare
-    ? "square dark" + (isSelectedSquare ? " highlighted" : "")
-    : "square light" + (isSelectedSquare ? " highlighted" : "");
+  const squareClass = isDarkSquare ? "square dark" : "square light";
+
+  // Add the "highlighted" class if the square is selected
+  return isSelectedSquare ? `${squareClass} highlighted` : squareClass;
 };
 </script>
 
