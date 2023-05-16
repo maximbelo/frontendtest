@@ -37,24 +37,25 @@ const getSquareClass = (file: string, rank: string): string => {
 </script>
 
 <style lang="scss" scoped>
+@import "@/assets/abstracts/vars";
 .chessboard {
   width: 100%;
-}
 
-.rank {
-  display: flex;
-}
+  .rank {
+    display: flex;
+  }
 
-.square {
-  width: 70px;
-  height: 70px;
-}
+  .square {
+    width: 70px;
+    height: 70px;
+  }
 
-.square.dark {
-  background-color: #b58863;
-}
+  .square.dark {
+    background-color: $mushroom;
+  }
 
-.square.light {
-  background-color: #f0d9b5;
+  .square.light {
+    background-color: $almond;
+  }
 }
 </style>
