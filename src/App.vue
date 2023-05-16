@@ -12,8 +12,8 @@
 </template>
 
 <script setup lang="ts">
-import ChessBoard from "@/components/Chessboard.vue";
-import SideBar from "@/components/Sidebar.vue";
+import ChessBoard from "@/components/ChessBoard.vue";
+import SideBar from "@/components/SideBar.vue";
 </script>
 
 <style scoped lang="scss">

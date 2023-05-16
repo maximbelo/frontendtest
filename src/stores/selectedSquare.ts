@@ -13,7 +13,7 @@ export const useSelectedSquareStore = defineStore("selectedSquare", {
   }),
 
   actions: {
-    // This is responsible for updating the selected square and the history.
+    // This is responsible for updating the selected square and the history
     selectSquare(file: string, rank: string): void {
       this.selectedSquare = { file, rank };
       this.history.push({ file, rank });
