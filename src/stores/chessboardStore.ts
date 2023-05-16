@@ -1,7 +1,7 @@
 import { defineStore } from "pinia";
 import type { SelectedSquare, HistoryItem } from "@/interfaces";
 
-export const useSelectedSquareStore = defineStore("selectedSquare", {
+export const useChessboardStore = defineStore("chessboard", {
   state: () => ({
     // Initialize the selectedSquare state with null values for file and rank
     selectedSquare: {

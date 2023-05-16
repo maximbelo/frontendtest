@@ -15,9 +15,9 @@
 </template>
 
 <script setup lang="ts">
-import { useSelectedSquareStore } from "@/stores/selectedSquare";
+import { useChessboardStore } from "@/stores/chessboardStore";
 
-const store = useSelectedSquareStore();
+const store = useChessboardStore();
 
 // Our chessboard
 const files = ["a", "b", "c", "d", "e", "f", "g", "h"];

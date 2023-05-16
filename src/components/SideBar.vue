@@ -13,9 +13,9 @@
 </template>
 
 <script setup lang="ts">
-import { useSelectedSquareStore } from "@/stores/selectedSquare";
+import { useChessboardStore } from "@/stores/chessboardStore";
 
-const store = useSelectedSquareStore();
+const store = useChessboardStore();
 </script>
 
 <style lang="scss" scoped></style>
