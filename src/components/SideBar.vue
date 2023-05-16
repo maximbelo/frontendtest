@@ -5,7 +5,9 @@
 
     <h2>Selected history:</h2>
     <ul>
-      <li v-for="item in store.history" :key="item">{{ item.file }}{{ item.rank }}</li>
+      <li v-for="item in store.history" :key="item.file + item.rank">
+        {{ item.file }}{{ item.rank }}
+      </li>
     </ul>
   </aside>
 </template>
