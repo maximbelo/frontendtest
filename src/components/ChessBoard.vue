@@ -8,7 +8,17 @@
         :key="file"
         :class="getSquareClass(file, rank)"
         @click="selectSquare(file, rank)"
-      ></div>
+      >
+        <!-- Display the ranks on the bottom squares -->
+        <div v-if="rank === '1'" class="ranks-display">
+          {{ file }}
+        </div>
+
+        <!-- Display the files on the far left squares -->
+        <div v-if="file === 'a'" class="files-display">
+          {{ rank }}
+        </div>
+      </div>
     </div>
   </div>
   <!-- ./chessboard -->
