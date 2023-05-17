@@ -11,15 +11,11 @@ export const useChessboardStore = defineStore("chessboard", {
     // Initialize the history state as an empty array
     history: [] as HistoryItem[],
   }),
-
   actions: {
     // This is responsible for updating the selected square and the history
     selectSquare(file: string, rank: string): void {
       this.selectedSquare = { file, rank };
       this.history.push({ file, rank });
-
-      console.log(`Selected square: ${file}${rank}`);
-      console.log(this.history);
     },
     // Reset the states
     reset(): void {
