@@ -36,14 +36,16 @@ npm install
 npm run dev
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+### Run Unit Tests with [Vitest](https://vitest.dev/):
 
 ```sh
 npm run test:unit
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Lint with [ESLint](https://eslint.org/):
 
 ```sh
 npm run lint
 ```
+# Live link:
+[chessclickathon.netlify.app](https://chessclickathon.netlify.app/)
