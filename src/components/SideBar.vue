@@ -47,6 +47,20 @@ const store = useChessboardStore();
     margin-top: 16px;
   }
 
+  h2 {
+    margin-bottom: 16px;
+  }
+
+  ul {
+    display: grid;
+    grid-template-columns: 80px 80px;
+    justify-content: center;
+
+    li {
+      margin-bottom: 1px;
+    }
+  }
+
   .reset-button {
     margin-bottom: 16px;
     padding: 8px 50px;
