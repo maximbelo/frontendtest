@@ -1,23 +1,24 @@
 <template>
   <div class="chessboard">
-    <!-- Render ranks (rows) -->
     <div v-for="rank in ranks" :key="rank" class="rank">
-      <!-- Render files (cols) inside the ranks -->
+      <!-- Render ranks (rows) -->
       <div
         v-for="file in files"
         :key="file"
         :class="getSquareClass(file, rank)"
         @click="selectSquare(file, rank)"
       >
-        <!-- Display the ranks on the bottom squares -->
+        <!-- Render files (cols) inside the ranks -->
+
         <p v-if="rank === '1'" class="ranks-display">
           {{ file }}
         </p>
+        <!-- Display the ranks on the bottom squares -->
 
-        <!-- Display the files on the far left squares -->
         <p v-if="file === 'a'" class="files-display">
           {{ rank }}
         </p>
+        <!-- Display the files on the far left squares -->
       </div>
     </div>
   </div>
@@ -42,7 +43,7 @@ const getSquareClass = (file: string, rank: string): string => {
   // Determine if the square is a light square based on its position on the board
   const isDarkSquare = (files.indexOf(file) + 1 + ranks.indexOf(rank)) % 2 === 0;
 
-  // Check if the square is the currently selected square from the store
+  // Check if the square is the selected square
   const isSelectedSquare = file === store.selectedSquare.file && rank === store.selectedSquare.rank;
 
   // Generate the appropriate CSS class for the square
@@ -75,8 +76,6 @@ const getSquareClass = (file: string, rank: string): string => {
     .files-display,
     .ranks-display {
       color: $wheat;
-      font-weight: 600;
-      font-size: 18px;
     }
   }
 
@@ -86,8 +85,6 @@ const getSquareClass = (file: string, rank: string): string => {
     .files-display,
     .ranks-display {
       color: $tan;
-      font-weight: 600;
-      font-size: 16px;
     }
   }
 

@@ -11,11 +11,13 @@
       </li>
     </ul>
   </aside>
+  <!-- ./sidebar -->
 </template>
 
 <script setup lang="ts">
 import { useChessboardStore } from "@/stores/chessboardStore";
 
+// Reset the selected square and history
 const reset = (): void => {
   store.reset();
 };
@@ -48,18 +50,17 @@ const store = useChessboardStore();
   .reset-button {
     margin-bottom: 16px;
     padding: 8px 50px;
-    background-color: #7fa650;
-    box-shadow: 0px 5px 0px 0px #537133;
+    background-color: $cucumber;
+    box-shadow: 0px 5px 0px 0px $muddyGreen;
     color: $white;
     border: none;
     border-radius: 7px;
-    font-weight: 700;
     transition: background-color 0.3s ease;
     cursor: pointer;
 
     &:hover,
     &:focus {
-      background-color: #95bb4a;
+      background-color: $peaGreen;
     }
   }
 

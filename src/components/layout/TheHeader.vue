@@ -6,7 +6,7 @@
           ><img src="/images/chesscom-logo.png" alt="Chess.com logo"
         /></a>
       </div>
-      <h1>ChessClickathon...</h1>
+      <h1>ChessClickathon.</h1>
     </div>
   </header>
 </template>
