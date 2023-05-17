@@ -10,14 +10,14 @@
         @click="selectSquare(file, rank)"
       >
         <!-- Display the ranks on the bottom squares -->
-        <div v-if="rank === '1'" class="ranks-display">
+        <p v-if="rank === '1'" class="ranks-display">
           {{ file }}
-        </div>
+        </p>
 
         <!-- Display the files on the far left squares -->
-        <div v-if="file === 'a'" class="files-display">
+        <p v-if="file === 'a'" class="files-display">
           {{ rank }}
-        </div>
+        </p>
       </div>
     </div>
   </div>
@@ -56,22 +56,51 @@ const getSquareClass = (file: string, rank: string): string => {
 <style lang="scss" scoped>
 @import "@/assets/abstracts/vars";
 .chessboard {
+  width: 100%;
+
   .rank {
     display: flex;
   }
 
   .square {
-    width: 70px;
-    height: 70px;
+    position: relative;
+    width: calc(100% / 8); /* Each square takes 1/8th of the width */
+    padding-bottom: calc(100% / 8); /* Maintain a square aspect ratio */
     cursor: pointer;
   }
 
   .dark {
-    background-color: $mushroom;
+    background-color: $tan;
+
+    .files-display,
+    .ranks-display {
+      color: $wheat;
+      font-weight: 600;
+      font-size: 18px;
+    }
   }
 
   .light {
-    background-color: $almond;
+    background-color: $wheat;
+
+    .files-display,
+    .ranks-display {
+      color: $tan;
+      font-weight: 600;
+      font-size: 18px;
+    }
+  }
+
+  .ranks-display {
+    position: absolute;
+    bottom: 0;
+    right: 4px;
+  }
+
+  .files-display {
+    position: absolute;
+    top: 0;
+    left: 4px;
   }
 
   .highlighted {
