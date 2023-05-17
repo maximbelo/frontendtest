@@ -64,8 +64,8 @@ const getSquareClass = (file: string, rank: string): string => {
 
   .square {
     position: relative;
-    width: calc(100% / 8); /* Each square takes 1/8th of the width */
-    padding-bottom: calc(100% / 8); /* Maintain a square aspect ratio */
+    width: calc(100% / 8);
+    padding-bottom: calc(100% / 8);
     cursor: pointer;
   }
 
@@ -87,19 +87,19 @@ const getSquareClass = (file: string, rank: string): string => {
     .ranks-display {
       color: $tan;
       font-weight: 600;
-      font-size: 18px;
+      font-size: 16px;
     }
   }
 
   .ranks-display {
     position: absolute;
-    bottom: 0;
+    bottom: 4px;
     right: 4px;
   }
 
   .files-display {
     position: absolute;
-    top: 0;
+    top: 4px;
     left: 4px;
   }
 
