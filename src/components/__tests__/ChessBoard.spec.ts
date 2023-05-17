@@ -1,7 +1,7 @@
 import { describe, expect, test, beforeEach } from "vitest";
 import { shallowMount } from "@vue/test-utils";
 import { createPinia, setActivePinia } from "pinia";
-import ChessBoard from "@/components/Chessboard.vue";
+import ChessBoard from "@/components/ChessBoard.vue";
 
 describe("ChessBoard.vue tests", () => {
   beforeEach(() => {
