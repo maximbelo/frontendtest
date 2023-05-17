@@ -18,4 +18,28 @@ import { useChessboardStore } from "@/stores/chessboardStore";
 const store = useChessboardStore();
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.sidebar {
+  border: 1px solid white;
+  border-radius: 6px;
+  margin-left: 16px;
+  padding: 18px;
+  max-height: 917px;
+  overflow-y: auto;
+
+  @media (max-width: 1200px) {
+    max-height: 724px;
+  }
+  @media (max-width: 992px) {
+    max-height: 515px;
+  }
+  @media (max-width: 768px) {
+    margin-left: 0;
+    margin-top: 16px;
+  }
+}
+
+h2:nth-of-type(2) {
+  margin-top: 20px;
+}
+</style>

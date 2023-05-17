@@ -1,5 +1,6 @@
 <template>
   <TheHeader />
+  <!-- ./header -->
   <main>
     <section class="page">
       <div class="page-content container">
@@ -11,6 +12,7 @@
   </main>
   <!-- ./main -->
   <TheFooter />
+  <!-- ./footer -->
 </template>
 
 <script setup lang="ts">
@@ -20,8 +22,13 @@ import TheHeader from "./components/layout/TheHeader.vue";
 import TheFooter from "./components/layout/TheFooter.vue";
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 .page-content {
   display: flex;
+  justify-content: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 </style>

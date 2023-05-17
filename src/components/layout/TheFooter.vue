@@ -18,12 +18,10 @@ const copyright = ref<number>(new Date().getFullYear());
 
 <style lang="scss" scoped>
 footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
+  margin-top: 32px;
 
-p {
-  text-align: center;
+  p {
+    text-align: center;
+  }
 }
 </style>
