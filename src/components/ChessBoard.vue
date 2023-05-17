@@ -31,8 +31,8 @@ import { useChessboardStore } from "@/stores/chessboardStore";
 const store = useChessboardStore();
 
 // Our chessboard
-const files = ["a", "b", "c", "d", "e", "f", "g", "h"];
-const ranks = ["1", "2", "3", "4", "5", "6", "7", "8"].reverse();
+const files: string[] = ["a", "b", "c", "d", "e", "f", "g", "h"];
+const ranks: string[] = ["1", "2", "3", "4", "5", "6", "7", "8"].reverse();
 
 const selectSquare = (file: string, rank: string): void => {
   // When a user clicks on the square, this calls the selectSquare action in the Pinia store to update the selected square state
