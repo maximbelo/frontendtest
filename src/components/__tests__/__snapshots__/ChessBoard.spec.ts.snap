@@ -3,461 +3,389 @@
 exports[`ChessBoard.vue tests > matches snapshot 1`] = `
 "<div data-v-41886935=\\"\\" class=\\"chessboard\\">
   <div data-v-41886935=\\"\\" class=\\"rank\\">
-    <!-- Render ranks (rows) -->
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <p data-v-41886935=\\"\\" class=\\"files-display\\">8</p><!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
-    </div>
+    </div><!-- Render files (cols) inside the ranks -->
   </div>
   <div data-v-41886935=\\"\\" class=\\"rank\\">
-    <!-- Render ranks (rows) -->
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <p data-v-41886935=\\"\\" class=\\"files-display\\">7</p><!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
-    </div>
+    </div><!-- Render files (cols) inside the ranks -->
   </div>
   <div data-v-41886935=\\"\\" class=\\"rank\\">
-    <!-- Render ranks (rows) -->
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <p data-v-41886935=\\"\\" class=\\"files-display\\">6</p><!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
-    </div>
+    </div><!-- Render files (cols) inside the ranks -->
   </div>
   <div data-v-41886935=\\"\\" class=\\"rank\\">
-    <!-- Render ranks (rows) -->
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <p data-v-41886935=\\"\\" class=\\"files-display\\">5</p><!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
-    </div>
+    </div><!-- Render files (cols) inside the ranks -->
   </div>
   <div data-v-41886935=\\"\\" class=\\"rank\\">
-    <!-- Render ranks (rows) -->
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <p data-v-41886935=\\"\\" class=\\"files-display\\">4</p><!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
-    </div>
+    </div><!-- Render files (cols) inside the ranks -->
   </div>
   <div data-v-41886935=\\"\\" class=\\"rank\\">
-    <!-- Render ranks (rows) -->
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <p data-v-41886935=\\"\\" class=\\"files-display\\">3</p><!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
-    </div>
+    </div><!-- Render files (cols) inside the ranks -->
   </div>
   <div data-v-41886935=\\"\\" class=\\"rank\\">
-    <!-- Render ranks (rows) -->
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <p data-v-41886935=\\"\\" class=\\"files-display\\">2</p><!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
-    </div>
+    </div><!-- Render files (cols) inside the ranks -->
   </div>
   <div data-v-41886935=\\"\\" class=\\"rank\\">
-    <!-- Render ranks (rows) -->
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <p data-v-41886935=\\"\\" class=\\"ranks-display\\">a</p><!-- Display the ranks on the bottom squares -->
       <p data-v-41886935=\\"\\" class=\\"files-display\\">1</p><!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <p data-v-41886935=\\"\\" class=\\"ranks-display\\">b</p><!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <p data-v-41886935=\\"\\" class=\\"ranks-display\\">c</p><!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <p data-v-41886935=\\"\\" class=\\"ranks-display\\">d</p><!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <p data-v-41886935=\\"\\" class=\\"ranks-display\\">e</p><!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <p data-v-41886935=\\"\\" class=\\"ranks-display\\">f</p><!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
-      <!-- Render files (cols) inside the ranks -->
       <p data-v-41886935=\\"\\" class=\\"ranks-display\\">g</p><!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
-      <!-- Render files (cols) inside the ranks -->
       <p data-v-41886935=\\"\\" class=\\"ranks-display\\">h</p><!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
-    </div>
-  </div>
+    </div><!-- Render files (cols) inside the ranks -->
+  </div><!-- Render ranks (rows) -->
 </div>
 <!-- ./chessboard -->"
 `;

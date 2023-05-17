@@ -1,26 +1,24 @@
 <template>
   <div class="chessboard">
     <div v-for="rank in ranks" :key="rank" class="rank">
-      <!-- Render ranks (rows) -->
       <div
         v-for="file in files"
         :key="file"
         :class="getSquareClass(file, rank)"
         @click="selectSquare(file, rank)"
       >
-        <!-- Render files (cols) inside the ranks -->
-
         <p v-if="rank === '1'" class="ranks-display">
           {{ file }}
         </p>
         <!-- Display the ranks on the bottom squares -->
-
         <p v-if="file === 'a'" class="files-display">
           {{ rank }}
         </p>
         <!-- Display the files on the far left squares -->
       </div>
+      <!-- Render files (cols) inside the ranks -->
     </div>
+    <!-- Render ranks (rows) -->
   </div>
   <!-- ./chessboard -->
 </template>
