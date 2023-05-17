@@ -2,7 +2,7 @@ import { describe, expect, test, beforeEach } from "vitest";
 import { createPinia, setActivePinia } from "pinia";
 import { useChessboardStore } from "@/stores/chessboardStore";
 
-describe("useChessboardStore.ts tests", () => {
+describe("useChessboardStore tests", () => {
   let store: ReturnType<typeof useChessboardStore>;
 
   beforeEach(() => {
@@ -28,5 +28,14 @@ describe("useChessboardStore.ts tests", () => {
     expect(store.history).toHaveLength(1);
     expect(store.history[0].file).toBe("a");
     expect(store.history[0].rank).toBe("1");
+  });
+
+  test("resets selectedSquare and history on reset action", () => {
+    store.selectSquare("a", "1");
+    store.reset();
+
+    expect(store.selectedSquare.file).toBeNull();
+    expect(store.selectedSquare.rank).toBeNull();
+    expect(store.history).toHaveLength(0);
   });
 });
