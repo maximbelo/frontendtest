@@ -1,5 +1,6 @@
 <template>
   <aside class="sidebar">
+    <button class="reset-button" @click="reset">Reset</button>
     <h2>Selected square:</h2>
     <p>{{ store.selectedSquare.file }}{{ store.selectedSquare.rank }}</p>
 
@@ -15,12 +16,18 @@
 <script setup lang="ts">
 import { useChessboardStore } from "@/stores/chessboardStore";
 
+const reset = (): void => {
+  store.reset();
+};
+
 const store = useChessboardStore();
 </script>
 
 <style lang="scss" scoped>
+@import "@/assets/abstracts/vars";
 .sidebar {
-  border: 1px solid white;
+  text-align: center;
+  border: 1px solid $white;
   border-radius: 6px;
   margin-left: 16px;
   padding: 18px;
@@ -37,9 +44,27 @@ const store = useChessboardStore();
     margin-left: 0;
     margin-top: 16px;
   }
-}
 
-h2:nth-of-type(2) {
-  margin-top: 20px;
+  .reset-button {
+    margin-bottom: 16px;
+    padding: 8px 50px;
+    background-color: #7fa650;
+    box-shadow: 0px 5px 0px 0px #537133;
+    color: $white;
+    border: none;
+    border-radius: 7px;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      background-color: #95bb4a;
+    }
+  }
+
+  h2:nth-of-type(2) {
+    margin-top: 20px;
+  }
 }
 </style>

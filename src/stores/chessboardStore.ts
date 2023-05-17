@@ -21,5 +21,10 @@ export const useChessboardStore = defineStore("chessboard", {
       console.log(`Selected square: ${file}${rank}`);
       console.log(this.history);
     },
+    // Reset the states
+    reset(): void {
+      this.selectedSquare = { file: null, rank: null };
+      this.history = [];
+    },
   },
 });
