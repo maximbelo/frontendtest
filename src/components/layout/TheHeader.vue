@@ -1,9 +1,12 @@
 <template>
   <header>
-    <div class="logo">
-      <a href="https://www.chess.com/"
-        ><img src="/images/chesscom-logo.png" alt="Chess.com logo"
-      /></a>
+    <div class="header-content container">
+      <div class="logo">
+        <a href="https://www.chess.com/"
+          ><img src="/images/chesscom-logo.png" alt="Chess.com logo"
+        /></a>
+      </div>
+      <h1>ChessClickathon...</h1>
     </div>
   </header>
 </template>
@@ -12,11 +15,32 @@
 
 <style lang="scss" scoped>
 header {
-  margin-bottom: 32px;
+  margin: 32px 0;
+}
+
+.header-content {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  a {
+    display: flex;
+  }
 
   img {
     height: 59px;
     width: 192px;
+
+    @media (max-width: 768px) {
+      height: 37px;
+      width: 131px;
+      margin-bottom: 10px;
+    }
   }
 }
 </style>
