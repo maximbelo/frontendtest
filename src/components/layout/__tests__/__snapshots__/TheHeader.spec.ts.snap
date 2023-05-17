@@ -2,9 +2,9 @@
 
 exports[`TheHeader.vue tests > matches the snapshot 1`] = `
 "<header data-v-c4a0481f=\\"\\">
-  <div class=\\"header-content container\\" data-v-c4a0481f=\\"\\">
-    <div class=\\"logo\\" data-v-c4a0481f=\\"\\"><a href=\\"https://www.chess.com/\\" data-v-c4a0481f=\\"\\"><img src=\\"/images/chesscom-logo.png\\" alt=\\"Chess.com logo\\" data-v-c4a0481f=\\"\\"></a></div>
-    <h1 data-v-c4a0481f=\\"\\">ChessClickathon...</h1>
+  <div data-v-c4a0481f=\\"\\" class=\\"header-content container\\">
+    <div data-v-c4a0481f=\\"\\" class=\\"logo\\"><a data-v-c4a0481f=\\"\\" href=\\"https://www.chess.com/\\"><img data-v-c4a0481f=\\"\\" src=\\"/images/chesscom-logo.png\\" alt=\\"Chess.com logo\\"></a></div>
+    <h1 data-v-c4a0481f=\\"\\">ChessClickathon.</h1>
   </div>
 </header>"
 `;

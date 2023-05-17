@@ -1,7 +1,7 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`SideBar.vue tests > matches the snapshot 1`] = `
-"<aside class=\\"sidebar\\" data-v-ce868814=\\"\\"><button class=\\"reset-button\\" data-v-ce868814=\\"\\">Reset</button>
+"<aside data-v-ce868814=\\"\\" class=\\"sidebar\\"><button data-v-ce868814=\\"\\" class=\\"reset-button\\">Reset</button>
   <h2 data-v-ce868814=\\"\\">Selected square:</h2>
   <p data-v-ce868814=\\"\\">a1</p>
   <h2 data-v-ce868814=\\"\\">Selected history:</h2>
@@ -10,5 +10,6 @@ exports[`SideBar.vue tests > matches the snapshot 1`] = `
     <li data-v-ce868814=\\"\\">2. b2</li>
     <li data-v-ce868814=\\"\\">3. c3</li>
   </ul>
-</aside>"
+</aside>
+<!-- ./sidebar -->"
 `;

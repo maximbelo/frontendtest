@@ -2,7 +2,7 @@
 
 exports[`TheFooter.vue tests > matches the snapshot 1`] = `
 "<footer data-v-db5876b4=\\"\\">
-  <div class=\\"container\\" data-v-db5876b4=\\"\\">
+  <div data-v-db5876b4=\\"\\" class=\\"container\\">
     <p data-v-db5876b4=\\"\\"> © 2023 maxim. </p>
   </div>
 </footer>"
