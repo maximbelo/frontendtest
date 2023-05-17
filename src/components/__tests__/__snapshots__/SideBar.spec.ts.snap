@@ -1,0 +1,14 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SideBar.vue tests > matches the snapshot 1`] = `
+"<aside class=\\"sidebar\\" data-v-ce868814=\\"\\">
+  <h2 data-v-ce868814=\\"\\">Selected square:</h2>
+  <p data-v-ce868814=\\"\\">a1</p>
+  <h2 data-v-ce868814=\\"\\">Selected history:</h2>
+  <ul data-v-ce868814=\\"\\">
+    <li data-v-ce868814=\\"\\">1. a1</li>
+    <li data-v-ce868814=\\"\\">2. b2</li>
+    <li data-v-ce868814=\\"\\">3. c3</li>
+  </ul>
+</aside>"
+`;

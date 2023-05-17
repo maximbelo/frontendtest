@@ -2,7 +2,7 @@ import { describe, expect, test, beforeEach } from "vitest";
 import { createPinia, setActivePinia } from "pinia";
 import { useChessboardStore } from "@/stores/chessboardStore";
 
-describe("useChessboardStore", () => {
+describe("useChessboardStore.ts tests", () => {
   let store: ReturnType<typeof useChessboardStore>;
 
   beforeEach(() => {
