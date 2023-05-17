@@ -7,48 +7,72 @@ exports[`ChessBoard.vue tests > matches snapshot 1`] = `
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <p data-v-41886935=\\"\\" class=\\"files-display\\">8</p><!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div><!-- Render files (cols) inside the ranks -->
   </div>
   <div data-v-41886935=\\"\\" class=\\"rank\\">
@@ -56,48 +80,72 @@ exports[`ChessBoard.vue tests > matches snapshot 1`] = `
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <p data-v-41886935=\\"\\" class=\\"files-display\\">7</p><!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div><!-- Render files (cols) inside the ranks -->
   </div>
   <div data-v-41886935=\\"\\" class=\\"rank\\">
@@ -105,48 +153,72 @@ exports[`ChessBoard.vue tests > matches snapshot 1`] = `
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <p data-v-41886935=\\"\\" class=\\"files-display\\">6</p><!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div><!-- Render files (cols) inside the ranks -->
   </div>
   <div data-v-41886935=\\"\\" class=\\"rank\\">
@@ -154,48 +226,72 @@ exports[`ChessBoard.vue tests > matches snapshot 1`] = `
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <p data-v-41886935=\\"\\" class=\\"files-display\\">5</p><!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div><!-- Render files (cols) inside the ranks -->
   </div>
   <div data-v-41886935=\\"\\" class=\\"rank\\">
@@ -203,48 +299,72 @@ exports[`ChessBoard.vue tests > matches snapshot 1`] = `
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <p data-v-41886935=\\"\\" class=\\"files-display\\">4</p><!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div><!-- Render files (cols) inside the ranks -->
   </div>
   <div data-v-41886935=\\"\\" class=\\"rank\\">
@@ -252,48 +372,72 @@ exports[`ChessBoard.vue tests > matches snapshot 1`] = `
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <p data-v-41886935=\\"\\" class=\\"files-display\\">3</p><!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div><!-- Render files (cols) inside the ranks -->
   </div>
   <div data-v-41886935=\\"\\" class=\\"rank\\">
@@ -301,89 +445,137 @@ exports[`ChessBoard.vue tests > matches snapshot 1`] = `
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <p data-v-41886935=\\"\\" class=\\"files-display\\">2</p><!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <!--v-if-->
       <!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div><!-- Render files (cols) inside the ranks -->
   </div>
   <div data-v-41886935=\\"\\" class=\\"rank\\">
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <p data-v-41886935=\\"\\" class=\\"ranks-display\\">a</p><!-- Display the ranks on the bottom squares -->
       <p data-v-41886935=\\"\\" class=\\"files-display\\">1</p><!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <p data-v-41886935=\\"\\" class=\\"ranks-display\\">b</p><!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <p data-v-41886935=\\"\\" class=\\"ranks-display\\">c</p><!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <p data-v-41886935=\\"\\" class=\\"ranks-display\\">d</p><!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <p data-v-41886935=\\"\\" class=\\"ranks-display\\">e</p><!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <p data-v-41886935=\\"\\" class=\\"ranks-display\\">f</p><!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square dark\\">
       <p data-v-41886935=\\"\\" class=\\"ranks-display\\">g</p><!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div>
     <div data-v-41886935=\\"\\" class=\\"square light\\">
       <p data-v-41886935=\\"\\" class=\\"ranks-display\\">h</p><!-- Display the ranks on the bottom squares -->
       <!--v-if-->
       <!-- Display the files on the far left squares -->
+      <transition-stub data-v-41886935=\\"\\" name=\\"fade\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+        <!--v-if-->
+      </transition-stub>
     </div><!-- Render files (cols) inside the ranks -->
   </div><!-- Render ranks (rows) -->
 </div>
