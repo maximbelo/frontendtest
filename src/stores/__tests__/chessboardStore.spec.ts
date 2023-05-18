@@ -19,7 +19,7 @@ describe("useChessboardStore tests", () => {
     expect(store.history).toHaveLength(0);
   });
 
-  test("updates selectedSquare and history on selectSquare action", () => {
+  test("updates selectedSquare and history when selectSquare is called", () => {
     store.selectSquare("a", "1");
 
     expect(store.selectedSquare.file).toBe("a");
@@ -30,7 +30,7 @@ describe("useChessboardStore tests", () => {
     expect(store.history[0].rank).toBe("1");
   });
 
-  test("resets selectedSquare and history on reset action", () => {
+  test("resets selectedSquare and history when reset is called", () => {
     store.selectSquare("a", "1");
     store.reset();
 
