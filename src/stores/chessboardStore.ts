@@ -1,26 +1,28 @@
 import { defineStore } from "pinia";
 import type { SelectedSquare, HistoryItem } from "@/interfaces";
+import { ref } from "vue";
 
-export const useChessboardStore = defineStore("chessboard", {
-  state: () => ({
-    // Initialize the selectedSquare state with null values for file and rank
-    selectedSquare: {
-      file: null,
-      rank: null,
-    } as SelectedSquare,
-    // Initialize the history state as an empty array
-    history: [] as HistoryItem[],
-  }),
-  actions: {
-    // This is responsible for updating the selected square and the history
-    selectSquare(file: string, rank: string): void {
-      this.selectedSquare = { file, rank };
-      this.history.push({ file, rank });
-    },
-    // Reset the states
-    reset(): void {
-      this.selectedSquare = { file: null, rank: null };
-      this.history = [];
-    },
-  },
+export const useChessboardStore = defineStore("chessboard", () => {
+  // Initialize the selectedSquare state with null values for file and rank
+  const selectedSquare = ref<SelectedSquare>({
+    file: null,
+    rank: null,
+  });
+
+  // Initialize the history state as an empty array
+  const history = ref<HistoryItem[]>([]);
+
+  // This is responsible for updating the selected square and the history
+  const selectSquare = (file: string, rank: string): void => {
+    selectedSquare.value = { file, rank };
+    history.value.push({ file, rank });
+  };
+
+  // Reset the states
+  const reset = (): void => {
+    selectedSquare.value = { file: null, rank: null };
+    history.value = [];
+  };
+
+  return { selectedSquare, history, selectSquare, reset };
 });
