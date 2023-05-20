@@ -39,7 +39,7 @@ const store = useChessboardStore();
 
   @media (max-width: 768px) {
     max-height: 515px;
-    min-width: 85%;
+    min-width: 88%;
     margin-left: 0;
     margin-top: 16px;
   }

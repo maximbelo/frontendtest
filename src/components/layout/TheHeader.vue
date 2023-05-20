@@ -26,7 +26,7 @@ header {
   @media (max-width: 768px) {
     flex-direction: column;
     align-items: start;
-    width: 85%;
+    width: 88%;
   }
 
   a {
