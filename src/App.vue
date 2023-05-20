@@ -29,6 +29,7 @@ import TheFooter from "@/components/layout/TheFooter.vue";
 
   @media (max-width: 768px) {
     flex-direction: column;
+    align-items: center;
   }
 }
 </style>

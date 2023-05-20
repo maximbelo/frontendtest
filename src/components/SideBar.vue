@@ -33,16 +33,13 @@ const store = useChessboardStore();
   border-radius: 6px;
   margin-left: 16px;
   padding: 18px;
-  max-height: 917px;
   overflow-y: auto;
+  max-height: min(74vw, 900px);
+  min-width: 200px;
 
-  @media (max-width: 1200px) {
-    max-height: 724px;
-  }
-  @media (max-width: 992px) {
-    max-height: 515px;
-  }
   @media (max-width: 768px) {
+    max-height: 515px;
+    min-width: 85%;
     margin-left: 0;
     margin-top: 16px;
   }
