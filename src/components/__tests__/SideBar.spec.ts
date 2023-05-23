@@ -1,5 +1,5 @@
 import { describe, expect, test, beforeEach } from "vitest";
-import { shallowMount } from "@vue/test-utils";
+import { mount } from "@vue/test-utils";
 import { createPinia, setActivePinia } from "pinia";
 import SideBar from "@/components/SideBar.vue";
 import { useChessboardStore } from "@/stores/chessboardStore";
@@ -13,7 +13,7 @@ describe("SideBar.vue tests", () => {
     const store = useChessboardStore();
     store.selectedSquare = { file: "a", rank: "1" };
 
-    const wrapper = shallowMount(SideBar);
+    const wrapper = mount(SideBar, { shallow: true });
 
     const selectedSquare = wrapper.find(".sidebar p");
     expect(selectedSquare.text()).toContain("a1");
@@ -27,7 +27,7 @@ describe("SideBar.vue tests", () => {
       { file: "c", rank: "3" },
     ];
 
-    const wrapper = shallowMount(SideBar);
+    const wrapper = mount(SideBar, { shallow: true });
 
     const historyItems = wrapper.findAll(".sidebar li");
     expect(historyItems).toHaveLength(3);
@@ -46,7 +46,7 @@ describe("SideBar.vue tests", () => {
       { file: "c", rank: "3" },
     ];
 
-    const wrapper = shallowMount(SideBar);
+    const wrapper = mount(SideBar, { shallow: true });
 
     expect(wrapper.html()).toMatchSnapshot();
   });
