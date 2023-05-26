@@ -64,7 +64,6 @@ const getSquareClass = (file: string, rank: string): string => {
 @import "@/assets/abstracts/vars";
 .chessboard {
   width: min(80vw, 80vh);
-  height: min(80vw, 80vh);
 
   .rank {
     display: flex;

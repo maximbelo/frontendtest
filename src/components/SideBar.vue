@@ -33,13 +33,12 @@ const store = useChessboardStore();
   border-radius: 6px;
   margin-left: 16px;
   padding: 18px;
-  overflow-y: auto;
-  max-height: min(74vw, 900px);
   min-width: 200px;
+  overflow-y: scroll;
 
   @media (max-width: 768px) {
     max-height: 515px;
-    min-width: 88%;
+    width: min(80vw, 80vh);
     margin-left: 0;
     margin-top: 16px;
   }
@@ -49,9 +48,14 @@ const store = useChessboardStore();
   }
 
   ul {
+    max-height: min(30vh, 30vw);
     display: grid;
     grid-template-columns: 80px 80px;
     justify-content: center;
+
+    @media (max-width: 768px) {
+      max-height: initial;
+    }
 
     li {
       margin-bottom: 1px;
