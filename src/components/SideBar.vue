@@ -17,12 +17,12 @@
 <script setup lang="ts">
 import { useChessboardStore } from "@/stores/chessboardStore";
 
+const store = useChessboardStore();
+
 // Reset the selected square and history
 const reset = (): void => {
   store.reset();
 };
-
-const store = useChessboardStore();
 </script>
 
 <style lang="scss" scoped>
