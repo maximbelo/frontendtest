@@ -61,7 +61,6 @@ const getSquareClass = (file: string, rank: string): string => {
 </script>
 
 <style lang="scss" scoped>
-@import "@/assets/abstracts/vars";
 .chessboard {
   width: min(80vw, 80vh);
 
@@ -77,20 +76,20 @@ const getSquareClass = (file: string, rank: string): string => {
   }
 
   .dark {
-    background-color: $tan;
+    background-color: vars.$tan;
 
     .files-display,
     .ranks-display {
-      color: $wheat;
+      color: vars.$wheat;
     }
   }
 
   .light {
-    background-color: $wheat;
+    background-color: vars.$wheat;
 
     .files-display,
     .ranks-display {
-      color: $tan;
+      color: vars.$tan;
     }
   }
 
@@ -107,7 +106,7 @@ const getSquareClass = (file: string, rank: string): string => {
   }
 
   .highlighted {
-    background-color: $yellow;
+    background-color: vars.$yellow;
   }
 
   .fade-enter-active,

@@ -26,10 +26,9 @@ const reset = (): void => {
 </script>
 
 <style lang="scss" scoped>
-@import "@/assets/abstracts/vars";
 .sidebar {
   text-align: center;
-  border: 1px solid $white;
+  border: 1px solid vars.$white;
   border-radius: 6px;
   margin-left: 16px;
   padding: 18px;
@@ -65,9 +64,9 @@ const reset = (): void => {
   .reset-button {
     margin-bottom: 16px;
     padding: 8px 50px;
-    background-color: $cucumber;
-    box-shadow: 0px 5px 0px 0px $muddyGreen;
-    color: $white;
+    background-color: vars.$cucumber;
+    box-shadow: 0px 5px 0px 0px vars.$muddyGreen;
+    color: vars.$white;
     border: none;
     border-radius: 7px;
     transition: background-color 0.3s ease;
@@ -75,7 +74,7 @@ const reset = (): void => {
 
     &:hover,
     &:focus {
-      background-color: $peaGreen;
+      background-color: vars.$peaGreen;
     }
   }
 
